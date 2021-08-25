@@ -10,9 +10,13 @@ Board: Nodemcu esp8266
 Wiring:
 
 BME688    NodeMCU
+
 2-6v -----> 3v
+
 GND  -----> G
+
 SDA  -----> D2
+
 DCL  -----> D1
 
 Don't forget to change the WiFi SSID and Password in the code.
