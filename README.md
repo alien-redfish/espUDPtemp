@@ -9,7 +9,7 @@ Board: Nodemcu esp8266
 
 Wiring:
 
-BME688    NodeMCU
+BME688 ----> NodeMCU
 
 2-6v -----> 3v
 
@@ -28,10 +28,14 @@ Board: Wemos D1 Mini
 
 Wiring:
 
-D1 Mini   16x2 i2c LCD
+D1 Mini -----> 16x2 i2c LCD
+
 VCC  ----->  5v
+
 GND  ----->  GCC
+
 SDA  ----->  D2
+
 SCL  ----->  D1
 
 Don't forget to change the WiFi SSID and Password in the code.
