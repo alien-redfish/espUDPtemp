@@ -10,7 +10,6 @@ Board: Nodemcu esp8266
 Wiring:
 
 BME688    NodeMCU
-------    -------
 2-6v -----> 3v
 GND  -----> G
 SDA  -----> D2
@@ -26,7 +25,6 @@ Board: Wemos D1 Mini
 Wiring:
 
 D1 Mini   16x2 i2c LCD
--------   ------------
 VCC  ----->  5v
 GND  ----->  GCC
 SDA  ----->  D2
