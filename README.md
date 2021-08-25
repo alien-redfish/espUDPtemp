@@ -3,6 +3,10 @@
 BME688 sensor attached to an esp8266 (NodeMCU), creates a UDP multicast packet and broadcasts this over the network.
 Receiver takes UDP packet, parses it and displays on a 16x2 LCD.
 
+__Required Libraries__
+Adafruit Sensor
+Adafruit BME680
+
 # Sender
 
 Board: Nodemcu esp8266
@@ -19,7 +23,7 @@ SDA  -----> D2
 
 DCL  -----> D1
 
-Don't forget to change the WiFi SSID and Password in the code.
+Don't forget to change the WiFi SSID and Password in the code. You'll probably also need to change the SEALEVELPRESSURE_HPA variable.
 The packet is a string consisting of temperature,pressure,humidity. Temp is four characters long, pressure is the next four and humidity the next five.
 
 # Receiver
